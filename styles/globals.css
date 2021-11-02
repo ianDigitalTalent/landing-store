@@ -1,0 +1,28 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+main{
+  background-color: #e0e1dd;
+}
+
+.burgerMenu{
+  display: block;
+}
+
+.burgerBtn{
+  font-size: 30px;
+  color: white;
+}
+
+@media(min-width:679px){
+  .burgerMenu{
+      display: none;
+  }
+}

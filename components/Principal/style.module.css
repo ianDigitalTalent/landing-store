@@ -1,0 +1,10 @@
+.imagen{
+    padding-top: 77px;
+}
+
+
+@media(min-width:679px){
+    .imagen{
+        padding: 0;
+    }
+}
