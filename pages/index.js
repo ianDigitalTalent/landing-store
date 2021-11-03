@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Header from '../components/Header/Header'
 import Principal from '../components/Principal/Principal'
+import WpButton from '../components/WpButton/WpButton'
 import Empresas from '../components/empresas/empresas'
 import Clientes from '../components/Clientes/Clientes'
+import Nosotros from '../components/Nosotros/Nosotros'
+import Modelos from '../components/Modelos/Modelos'
 
 export default function Home() {
   return (
@@ -13,18 +16,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <div id="home"></div>
         <Header/>
         <Principal/>
+        <WpButton/>
         <h2 id="empresas">Empresas</h2>
-        <div className="max-width">
-          <Empresas/>
-        </div>
-        <div className="max-width">
-          <h2 id="clientes">Clientes</h2>
-          <Clientes/>
-          <Principal/>
-        </div>
-
+        <Empresas/>
+        <h2 id="clientes">Clientes</h2>
+        <Clientes/>
+        <h2 id="nosotros">Nosotros</h2>
+        <Nosotros/>
+        <h2 id="modelos">Modelos</h2>
+        <Modelos/>
       </main>
     </>
   )

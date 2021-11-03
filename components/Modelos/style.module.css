@@ -1,0 +1,101 @@
+.display{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenFondo1{
+    background-image: url("/modelo1.png");
+    background-size: cover;
+    width: 100vw;
+    height: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenFondo2{
+    background-image: url("/modelo2.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenFondo3{
+    background-image: url("/modelo3.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTexto{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.titulo{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    height: 10px;
+}
+
+.item{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+}
+
+@media (min-width:550px){
+    .titulo{
+        font-size: 18px;
+    }
+    .item{
+        font-size: 16px;
+    }
+}
+@media (min-width:679px){
+    .titulo{
+        font-size: 20px;
+    }
+    .item{
+        font-size: 18px;
+    }
+}
+@media (min-width:990px){
+    .titulo{
+        font-size: 24px;
+    }
+    .item{
+        font-size: 20px;
+    }
+}
+@media (min-width:1460px){
+    .display{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .imagenFondo1{
+        width: 33vw;
+        height: 20vw;
+    }
+    .imagenFondo2{
+        width: 33vw;
+        height: 20vw;
+    }
+    .imagenFondo3{
+        width: 33vw;
+        height: 20vw;
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    .item{
+        font-size: 18px;
+    }
+}

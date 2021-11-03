@@ -10,7 +10,7 @@ export default function Header(){
         <>
             <div className={style.display}>
                 <div className={style.left}>
-                    <Link href="/" passHref>
+                    <Link href="#home" passHref>
                         <a>
                             <Image src="/logoStore2.png" alt="logo" width={120} height={60}></Image>
                         </a>

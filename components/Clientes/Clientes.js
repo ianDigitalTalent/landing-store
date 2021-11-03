@@ -37,14 +37,14 @@ if(!Array.isArray(SliderData) || lengthArray <=0 ){
         <>
         <div className="slider">
             <FaChevronLeft className="left-arrow" onClick={prevSlide}/>
+            <FaChevronRight className="right-arrow" onClick={nextSlide}/>
            {SliderData.map((slide,index)=>{
                 return ( 
                     <div className={index === current ? 'slide-active' : 'slide' } key={index}>
-                        {index===current && (<Image src={slide.image} alt="imagen" width={2160} height={460} ></Image>)}
+                        {index===current && (<Image src={slide.image} alt="imagen" width={3240} height={540} ></Image>)}
                     </div>
                 )
             })} 
-            <FaChevronRight className="right-arrow" onClick={nextSlide}/>
         </div>
         </>
     )

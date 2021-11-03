@@ -14,9 +14,9 @@ main{
   text-align: -webkit-center;
 }
 
-.max-width{
+/* .max-width{
   max-width: 1250px;
-}
+} */
 
 h2{
   margin: 0;
@@ -28,6 +28,11 @@ h2{
   padding: 10px 0;
   box-shadow: 0px 4px 20px 0px black;
   scroll-margin: 80px;
+}
+
+#nostros{
+  margin-top: 50px;
+  margin-bottom: 1px;
 }
 
 
@@ -48,12 +53,12 @@ h2{
   display: flex;
   align-items: center;
   box-shadow: 0px 8px 20px 0px black;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .right-arrow{
   position: absolute;
-  right: 0px;
+  right: 1%;
   font-size: 35px;
   color: rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -64,6 +69,7 @@ h2{
 .left-arrow{
   position: absolute;
   font-size: 35px;
+  left: 1%;
   color: rgba(0, 0, 0, 0.3);
   z-index: 10;
   cursor: pointer;
@@ -73,12 +79,12 @@ h2{
 
 
 .slide{
-  opacity: 0 ;
+  opacity: 0;
   transition: all 1s;
 }
 
 .slide-active{
-  opacity: 1 ;
+  opacity: 1;
 }
 
 .slide-active{
@@ -101,10 +107,3 @@ h2{
   }
 }
 
-@media(min-width:1250px){
-  .right-arrow{
-    position: relative;
-    right: 25px;
-    margin-right: -20px;
-  }
-}
