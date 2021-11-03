@@ -25,10 +25,9 @@ export default function Empresas(){
             {empresas.map((empresa,index)=>{
                 return (
                     <div className={style.empresa} key={index}>
-                        <Link href={empresa.url} passHref >
-                            <Image src={empresa.foto} alt={empresa.nombre} width={200} height={200}></Image>
+                        <Link href={empresa.url} >
+                                <Image src={empresa.foto} alt={empresa.nombre} width={200} height={200}></Image>
                         </Link>
-                        <p className={style.nombre}>{empresa.nombre}</p>
                     </div>
                 )
             })}

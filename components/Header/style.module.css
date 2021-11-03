@@ -46,9 +46,6 @@
 
 
 @media(min-width:679px){
-    .burgerMenu{
-        display: none;
-    }
     .items{
         display: flex;
     }

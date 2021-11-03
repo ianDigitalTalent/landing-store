@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import Empresas from '../components/empresas/empresas'
 import Header from '../components/Header/Header'
 import Principal from '../components/Principal/Principal'
+import Empresas from '../components/empresas/empresas'
+import Clientes from '../components/Clientes/Clientes'
 
 export default function Home() {
   return (
@@ -14,8 +15,16 @@ export default function Home() {
       <main>
         <Header/>
         <Principal/>
-        <h2>Empresas </h2>
-        <Empresas/>
+        <h2 id="empresas">Empresas</h2>
+        <div className="max-width">
+          <Empresas/>
+        </div>
+        <div className="max-width">
+          <h2 id="clientes">Clientes</h2>
+          <Clientes/>
+          <Principal/>
+        </div>
+
       </main>
     </>
   )

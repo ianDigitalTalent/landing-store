@@ -5,9 +5,11 @@
 }
 
 .empresa{
-    box-shadow: 0 0 20px 5px #0d1b2a;
-    margin: 20px 0;
+    margin: 50px 0;
     border-radius: 10px;
+    background-color: #778da9 ;
+    cursor: pointer;
+    transition: all .4s;
 }
 
 .empresa img{
@@ -16,6 +18,26 @@
     border-radius: 10px;
 }
 
-.nombre{
-    font-size: 20px;
+@media(min-width:679px){
+    .display{
+        flex-direction: row;
+        justify-content: space-around
+    };
+    .empresa{
+        transform: scale(1.01);
+    }
+    .empresa:hover{
+        transform: scale(1.1);
+    }
+}
+@media(min-width:990px){
+    .empresa{
+        margin: 80px 0;
+        transform: scale(1.2);
+    }
+}
+@media(min-width:1200px){
+    .empresa{
+        transform: scale(1.3);
+    }
 }
