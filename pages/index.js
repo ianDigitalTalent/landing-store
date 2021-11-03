@@ -6,6 +6,7 @@ import Empresas from '../components/empresas/empresas'
 import Clientes from '../components/Clientes/Clientes'
 import Nosotros from '../components/Nosotros/Nosotros'
 import Modelos from '../components/Modelos/Modelos'
+import Footer from '../components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <h2 id="modelos">Modelos</h2>
         <Modelos/>
       </main>
+      <Footer/>
     </>
   )
 }

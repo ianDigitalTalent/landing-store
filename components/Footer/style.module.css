@@ -1,0 +1,40 @@
+.display{
+    display: flex;
+    flex-direction: column;
+    background-color: #0d1b2a;
+    align-items: center;
+}
+
+.imagenFooter{
+    margin-top: 30px;
+    width: 60vw;
+    height: 20vw;
+}
+
+.redes{
+    display: flex;
+    width: 60vw;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.icons{
+    font-size: 50px;
+    color: white;
+}
+
+@media(min-width:990px){
+    .imagenFooter{
+        margin-top: 50px;
+        width: 40vw;
+        height: 20vw;
+    }
+}
+
+@media(min-width:1250px){
+    .imagenFooter{
+        margin-top: 60px;
+        width: 20vw;
+        height: 10vw;
+    }
+}
