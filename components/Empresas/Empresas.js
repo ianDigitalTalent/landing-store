@@ -1,6 +1,6 @@
-import style from './style.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
+import style from "./style.module.css";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Empresas(){
     const empresas = [
@@ -25,8 +25,10 @@ export default function Empresas(){
             {empresas.map((empresa,index)=>{
                 return (
                     <div className={style.empresa} key={index}>
-                        <Link href={empresa.url} >
+                        <Link href={empresa.url} passHref>
+                            <a href={empresa.url}>
                                 <Image src={empresa.foto} alt={empresa.nombre} width={200} height={200}></Image>
+                            </a>
                         </Link>
                     </div>
                 )

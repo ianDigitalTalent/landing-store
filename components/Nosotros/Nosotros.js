@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import style from './style.module.css';
+import Image from "next/image";
+import style from "./style.module.css";
 
 export default function Nosotros(){
     return(
@@ -18,7 +18,7 @@ export default function Nosotros(){
                         <div className={style.imagen1}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
-                                   <strong> La gestión de inventario: </strong> <br/>
+                                   <strong className={style.strong}> La gestión de inventario: </strong> 
                                     Desde soluciones de autoservicio hasta una compleja gestión de 
                                     inventario, podemos adaptar un sistema de inventario a sus necesidades. 
 
@@ -30,7 +30,7 @@ export default function Nosotros(){
                         <div className={style.imagen2}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
-                                    <strong>Programas de seguridad:</strong><br/>
+                                    <strong className={style.strong}>Programas de seguridad:</strong>
                                     Podemos ayudar a manejar el trabajo administrativo para 
                                     aliviar la carga de gestionar programas de seguridad, focalizando en EPP, Ergonomía, 
                                     Seguridad Eléctrica. Las personas obtienen la protección que necesitan mientras usted ahorra 
@@ -43,7 +43,7 @@ export default function Nosotros(){
                         <div className={style.imagen3}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
-                                  <strong>Economía Circular:</strong><br/>
+                                  <strong className={style.strong}>Economía Circular:</strong>
                                   Foco en el concepto de "reducir, reutilizar y reciclar". Es por ello que ofrecemos servicios 
                                   alineados a los objetivos de sostenibilidad y contribuir a seguir la cadena de la economía circular, 
                                   logrando que cada vez más clientes vean los beneficios de utilizar recursos y activos de una manera 
@@ -56,7 +56,7 @@ export default function Nosotros(){
                         <div className={style.imagen4}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
-                                    <strong>Servicios de consultoría:</strong><br/>
+                                    <strong className={style.strong}>Servicios de consultoría:</strong>
                                     Nos asociamos con usted para comprender mejor su negocio, identificar oportunidades de mejora y desarrollar 
                                     planes estratégicos de ahorro. 
                                 </p>

@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import Image from 'next/image'
-import {FaChevronRight,FaChevronLeft} from 'react-icons/fa'
+import React, { useState } from "react"
+import Image from "next/image"
+import {FaChevronRight,FaChevronLeft} from "react-icons/fa"
 
 export const Clientes = () => {
 const SliderData = [
@@ -40,7 +40,7 @@ if(!Array.isArray(SliderData) || lengthArray <=0 ){
             <FaChevronRight className="right-arrow" onClick={nextSlide}/>
            {SliderData.map((slide,index)=>{
                 return ( 
-                    <div className={index === current ? 'slide-active' : 'slide' } key={index}>
+                    <div className={index === current ? "slide-active" : "slide" } key={index}>
                         {index===current && (<Image src={slide.image} alt="imagen" width={3240} height={540} ></Image>)}
                     </div>
                 )

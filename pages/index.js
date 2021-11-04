@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import Header from '../components/Header/Header'
-import Principal from '../components/Principal/Principal'
-import WpButton from '../components/WpButton/WpButton'
-import Empresas from '../components/empresas/empresas'
-import Clientes from '../components/Clientes/Clientes'
-import Nosotros from '../components/Nosotros/Nosotros'
-import Modelos from '../components/Modelos/Modelos'
-import Footer from '../components/Footer/Footer'
+import Head from "next/head"
+import Header from "../components/Header/Header"
+import Principal from "../components/Principal/Principal"
+import WpButton from "../components/WpButton/WpButton"
+import Empresas from "../components/empresas/empresas"
+import Clientes from "../components/Clientes/Clientes"
+import Nosotros from "../components/Nosotros/Nosotros"
+import Modelos from "../components/Modelos/Modelos"
+import Footer from "../components/Footer/Footer"
 
 export default function Home() {
   return (

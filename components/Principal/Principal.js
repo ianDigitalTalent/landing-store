@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from './style.module.css'
+import style from "./style.module.css"
 
 export default function Principal(){
     return(

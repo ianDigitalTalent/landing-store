@@ -1,6 +1,6 @@
-import { FaWhatsapp } from 'react-icons/fa';
-import Link from 'next/link'
-import style from './style.module.css';
+import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link"
+import style from "./style.module.css";
 
 export default function WpButton(){
     return(
