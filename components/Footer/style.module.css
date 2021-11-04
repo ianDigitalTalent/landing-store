@@ -1,4 +1,4 @@
-.display{
+.displayFooter{
     display: flex;
     flex-direction: column;
     background-color: #0d1b2a;
@@ -12,14 +12,14 @@
     height: 20vw;
 }
 
-.redes{
+.redesFooter{
     display: flex;
     width: 60vw;
     justify-content: space-evenly;
     padding-top: 20px;
 }
 
-.icons{
+.iconsFooter{
     font-size: 50px;
     color: white;
 }

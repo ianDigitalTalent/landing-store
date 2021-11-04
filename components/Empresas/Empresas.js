@@ -21,7 +21,7 @@ export default function Empresas(){
         }
     ]
     return(
-        <div className={style.display}>
+        <div className={style.displayEmpresa}>
             {empresas.map((empresa,index)=>{
                 return (
                     <div className={style.empresa} key={index}>

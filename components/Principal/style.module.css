@@ -1,10 +1,10 @@
-.imagen{
+.imagenPrincipal{
     padding-top: 77px;
 }
 
 
 @media(min-width:679px){
-    .imagen{
+    .imagenPrincipal{
         padding: 0;
     }
 }

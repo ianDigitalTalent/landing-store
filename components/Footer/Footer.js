@@ -7,24 +7,24 @@ import { FaTwitter } from "react-icons/fa";
 
 export default function Footer(){
     return(
-        <div className={style.display}>
+        <div className={style.displayFooter}>
             <div className={style.imagenFooter}>
                 <Image src="/logoStore2.png" alt="Logo Footer" width={2944} height={1288}></Image>
             </div>
-            <div className={style.redes}>
+            <div className={style.redesFooter}>
                 <Link href="https://www.facebook.com/storeinhouse112"  passHref >
                     <a target="_blank" >
-                        <p  className={style.icons}><FaFacebookF></FaFacebookF></p>
+                        <p  className={style.iconsFooter}><FaFacebookF></FaFacebookF></p>
                     </a>
                 </Link>
                 <Link href="https://www.instagram.com/storeinhouse"  passHref >
                     <a target="_blank" >
-                        <p  className={style.icons}><FaInstagram></FaInstagram></p>
+                        <p  className={style.iconsFooter}><FaInstagram></FaInstagram></p>
                     </a>
                 </Link>
                 <Link href="https://twitter.com/storeinhouse"  passHref >
                     <a target="_blank" >
-                        <p  className={style.icons}><FaTwitter></FaTwitter></p>
+                        <p  className={style.iconsFooter}><FaTwitter></FaTwitter></p>
                     </a>
                 </Link>
             </div>

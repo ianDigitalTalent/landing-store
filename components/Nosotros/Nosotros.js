@@ -15,7 +15,7 @@ export default function Nosotros(){
                     </div>          
                 <div className={style.displayImagenes}>
                     <div className={style.imagenes}>
-                        <div className={style.imagen1}>
+                        <div className={style.imagen1Nosotos}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
                                    <strong className={style.strong}> La gestión de inventario: </strong> 
@@ -27,7 +27,7 @@ export default function Nosotros(){
                         </div>
                     </div> 
                     <div className={style.imagenes}>
-                        <div className={style.imagen2}>
+                        <div className={style.imagen2Nosotos}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
                                     <strong className={style.strong}>Programas de seguridad:</strong>
@@ -40,7 +40,7 @@ export default function Nosotros(){
                         </div>
                     </div> 
                     <div className={style.imagenes}>
-                        <div className={style.imagen3}>
+                        <div className={style.imagen3Nosotos}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
                                   <strong className={style.strong}>Economía Circular:</strong>
@@ -53,7 +53,7 @@ export default function Nosotros(){
                         </div>
                     </div> 
                     <div className={style.imagenes}>
-                        <div className={style.imagen4}>
+                        <div className={style.imagen4Nosotos}>
                             <div className={style.containerTexto}>
                                 <p className={style.textoImagen}>
                                     <strong className={style.strong}>Servicios de consultoría:</strong>

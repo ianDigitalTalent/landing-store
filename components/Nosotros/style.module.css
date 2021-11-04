@@ -26,7 +26,7 @@
     margin-bottom: -3px;
 }
 
-.imagen1{
+.imagen1Nosotos{
     background-image: url("/nosotros/imagen1.jpg");
     background-size: cover;
     width: 100vw;
@@ -35,7 +35,7 @@
     align-items: center;
 }
 
-.imagen2{
+.imagen2Nosotos{
     background-image: url("/nosotros/imagen2.jpg");
     background-size: cover;
     width: 100vw;
@@ -44,7 +44,7 @@
     align-items: center;
 }
 
-.imagen3{
+.imagen3Nosotos{
     background-image: url("/nosotros/imagen3.jpg");
     background-size: cover;
     width: 100vw;
@@ -53,7 +53,7 @@
     align-items: center;
 }
 
-.imagen4{
+.imagen4Nosotos{
     background-image: url("/nosotros/imagen4.jpg");
     background-size: cover;
     width: 100vw;
@@ -74,19 +74,19 @@
 }
 
 @media(min-width:550px){
-    .imagen1{
+    .imagen1Nosotos{
         width: 49.4vw;
         height: 49.4vw;
     }
-    .imagen2{
+    .imagen2Nosotos{
         width: 49.4vw;
         height: 49.4vw;
     }
-    .imagen3{
+    .imagen3Nosotos{
         width: 49.4vw;
         height: 49.4vw;
     }
-    .imagen4{
+    .imagen4Nosotos{
         width: 49.4vw;
         height: 49.4vw;
     }

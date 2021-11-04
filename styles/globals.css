@@ -43,14 +43,42 @@ h2{
 
 /* BURGER MENU */
 
-.burgerMenu{
+.burgerMenu1{
   display: block;
 }
 
 .burgerBtn{
   font-size: 30px;
   color: white;
+  list-style: none;
+  position: absolute;
+  right: 30px;
+  top: 23px;
 }
+
+#itemsListBurger {
+  width: 100vw;
+  height: 250px;
+  z-index: 99;
+  background-color: rgb(13, 27, 42);
+  list-style: none;
+  color: white;
+  padding: 15px;
+  position: absolute;
+  left: 0;
+  top: -1000px;
+}
+
+.openMenu{
+  top: 79px;
+}
+
+.itemsBurger {
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
 
 /* SLIDER */
 
@@ -99,7 +127,7 @@ h2{
 
 
 @media(min-width:679px){
-  .burgerMenu{
+  .burgerMenu1{
       display: none;
   }
 }

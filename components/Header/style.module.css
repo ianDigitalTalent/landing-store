@@ -1,4 +1,4 @@
-.display{
+.displayHeader{
     background-color: #0d1b2a;
     opacity: 0.8;
     display: flex;
@@ -10,24 +10,24 @@
     padding-top: 5px;
 }
 
-.left{
+.leftHeader{
     margin-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.right{
+.rightHeader{
     margin-right: 30px;
     display: flex;
 }
 
 
-.itemsList{
+.itemsListHeader{
     display: flex;
     margin-right: 30px;
 }
 
-.items{
+.itemsHeader{
     display: none;
     list-style: none;
     margin: 0 5px;
@@ -38,7 +38,7 @@
 }
 
 
-.items:hover{
+.itemsHeader:hover{
     text-decoration: underline;
     transform: scale(1.05);
 }
@@ -46,17 +46,17 @@
 
 
 @media(min-width:679px){
-    .items{
+    .itemsHeader{
         display: flex;
     }
-    .left{
+    .leftHeader{
         margin-left: 40px;
 
     }
 }
 
 @media(min-width:990px){
-    .items{
+    .itemsHeader{
         margin: 0 10px;
         font-size: 20px;
         font-weight: 600;
