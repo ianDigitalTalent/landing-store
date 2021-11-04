@@ -502,7 +502,7 @@ h2{
   }
 }
 
-/* PRODUCTOS MAGNANI*/
+/* PRODUCTOS FERRETERIA*/
 
 .imagenProductos1Ferr{
   background-image: url("/ferreteria/productos1.jpg");
@@ -600,6 +600,270 @@ h2{
   }
 }
 
+
+/* GIOVAGNOLI */
+
+.imagenFondoNosotrosGiov{
+  background-image: url("/giov/fondo.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  padding: 10px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px 5px black;
+}
+
+.textoNosotrosGiov{
+  color: white;
+  font-size: 12px;
+}
+
+/* SOLUCIONES FERRETERIA*/
+
+.imagenSoluciones1Giov{
+  background-image: url("/giov/servicios1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones2Giov{
+  background-image: url("/giov/servicios2.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones3Giov{
+  background-image: url("/giov/servicios3.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones4Giov{
+  background-image: url("/giov/servicios4.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones5Giov{
+  background-image: url("/giov/servicios5.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.itemsSolucionesGiov{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-right: 25px;
+}
+
+
+@media (min-width:550px) {
+  .itemsSolucionesGiov{
+    font-size: 13px;
+    margin: 0;
+  }
+  .textoNosotrosGiov{
+    font-size: 15px;
+  }
+  .imagenSoluciones1Giov{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones2Giov{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones3Giov{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones4Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones5Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:550px) {
+  .imagenFondoNosotrosGiov{
+    height: 100vh;
+  }
+}
+@media (min-width:679px) {
+  .itemsSolucionesGiov{
+    font-size: 16px;
+    margin-right: 25px;
+  }  
+}
+@media (min-width:1100px) {
+  .imagenSoluciones1Giov{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones2Giov{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones3Giov{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones4Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones5Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1300px) {
+  .imagenSoluciones1Giov{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones2Giov{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones3Giov{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones4Giov{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones5Giov{
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+/* PRODUCTOS GIOVAGNOLI*/
+
+.imagenProductos1Giov{
+  background-image: url("/giov/productos1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenProductos2Giov{
+  background-image: url("/giov/productos2.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenProductos3Giov{
+  background-image: url("/giov/productos3.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenProductos4Giov{
+  background-image: url("/giov/productos4.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+@media (min-width:550px) {
+  .imagenProductos1Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos2Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos3Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos4Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1100px) {
+  .imagenProductos1Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos2Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos3Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos4Giov{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1300px) {
+  .imagenProductos1Giov{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenProductos2Giov{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenProductos3Giov{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenProductos4Giov{
+    width: 25vw;
+    height: 25vw;
+  }
+}
 /* BURGER MENU */
 
 .burgerMenu1{
