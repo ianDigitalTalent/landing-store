@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import Image from "next/image"
 import Head from "next/head"
-import Footer from "../../components/Footer/Footer"
 import HeaderEmpresa from "../../components/HeaderEmpresa/HeaderEmpresa"
 import Principal from "../../components/Principal/Principal"
+import FooterMagnani from "../../components/Footer/FooterMagnani"
 import {FaChevronRight,FaChevronLeft} from "react-icons/fa"
 
 export default function Magnani(){
@@ -131,7 +131,60 @@ export default function Magnani(){
                         </div>
                     </div>
                 <h2 id="productos">Productos</h2>
-                <Footer/>
+                    <div className="displayImagenesProductos">
+                        <div className="imagenProductos1">
+                            <div className="containerTextoProductos">
+                                <ul className="listProductos">
+                                    <li className="itemsProductos">
+                                        Instrumentos de medición.
+                                    </li>
+                                    <li className="itemsProductos">
+                                        Instalación Eléctrica.
+                                    </li>
+                                    <li className="itemsProductos">
+                                        Automatización industrial.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="imagenProductos2">
+                            <div className="containerTextoProductos">
+                                <ul className="listProductos">
+                                    <li className="itemsProductos">
+                                        Iluminación profesional.
+                                    </li>
+                                    <li className="itemsProductos">
+                                        Climatización profesional.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="imagenProductos3">
+                            <div className="containerTextoProductos">
+                                <ul className="listProductos">
+                                    <li className="itemsProductos">
+                                        Conductores eléctricos.
+                                    </li>
+                                    <li className="itemsProductos">
+                                        Baja y media tensión.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="imagenProductos4">
+                            <div className="containerTextoProductos">
+                                <ul className="listProductos">
+                                    <li className="itemsProductos">
+                                        Infraestructura y Datacenter.
+                                    </li>
+                                    <li className="itemsProductos">
+                                        Tableros eléctricos
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <FooterMagnani/>
             </main>
         </>
     )
