@@ -14,10 +14,6 @@ main{
   text-align: -webkit-center;
 }
 
-/* .max-width{
-  max-width: 1250px;
-} */
-
 h2{
   margin: 0;
   margin-top: -5px;
@@ -36,9 +32,217 @@ h2{
   margin-bottom: 2px;
 }
 
+#nosotrosEmpresa{
+  margin-top: 0;
+  margin-bottom: 1px;
+  margin-bottom: -8px;
+}
+
+#soluciones {
+  margin: -5px 0 2px 0;
+}
+
 #modelos {
   margin: 2px 0;
 }
+
+
+#productos {
+  margin: 2px 0;
+}
+
+#marcas {
+  margin-top: 10px;
+}
+
+/* EMPRESAS */
+.colorFondo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#778da9 ;
+  padding: 20px 0;
+}
+.imagenFondoNosotros{
+  background-image: url("/mag/fondo.png");
+  background-size: cover;
+  width: 100vw;
+  padding: 10px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px 5px black;
+}
+
+.containerTextoNosotros {
+  background-color: black;
+  opacity: 0.7;
+  padding: 10px;
+  margin: 10px;
+}
+
+.textoNosotros {
+  color: white;
+  font-size: 14px;
+}
+@media(min-width:480px){
+  .imagenFondoNosotros{
+    padding: 20px;
+    height: 300px;
+  }
+  .containerTextoNosotros {
+  }
+  .textoNosotros{
+    font-size: 16px;
+  }
+}
+
+/* SOLUCIONES MAGNANI*/
+
+.displayImagenesSoluciones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.imagenSoluciones1{
+  background-image: url("/mag/soluciones1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones2{
+  background-image: url("/mag/soluciones2.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones3{
+  background-image: url("/mag/soluciones3.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones4{
+  background-image: url("/mag/soluciones4.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones5{
+  background-image: url("/mag/soluciones5.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.containerTextoSoluciones{
+  background-color: black;
+  opacity: 0.7;
+  padding: 10px;
+  margin: 10px;
+}
+
+.itemsSoluciones {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+@media (min-width:550px) {
+  .displayImagenesSoluciones{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .imagenSoluciones1{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones2{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones3{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones4{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones5{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1100px) {
+  .imagenSoluciones1{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones2{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones3{
+    width: 33.3vw;
+    height: 33.3vw;
+  }
+  .imagenSoluciones4{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones5{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1300px) {
+  .imagenSoluciones1{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones2{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones3{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones4{
+    width: 20vw;
+    height: 20vw;
+  }
+  .imagenSoluciones5{
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+/* PRODUCTOS MAGNANI*/
+
 
 
 /* BURGER MENU */

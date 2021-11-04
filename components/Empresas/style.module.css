@@ -19,7 +19,7 @@
 }
 
 @media(min-width:679px){
-    .display{
+    .displayEmpresa{
         flex-direction: row;
         justify-content: space-around
     };
