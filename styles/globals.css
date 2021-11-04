@@ -42,6 +42,11 @@ h2{
   margin: -5px 0 2px 0;
 }
 
+#servicios {
+  margin: -5px 0 2px 0;
+}
+
+
 #modelos {
   margin: 2px 0;
 }
@@ -55,7 +60,7 @@ h2{
   margin-top: 10px;
 }
 
-/* EMPRESAS */
+/* EMPRESA MAGNANI */
 .colorFondo{
   display: flex;
   justify-content: center;
@@ -64,7 +69,7 @@ h2{
   padding: 20px 0;
 }
 .imagenFondoNosotros{
-  background-image: url("/mag/fondo.png");
+  background-image: url("/mag/fondo.jpg");
   background-size: cover;
   width: 100vw;
   padding: 10px;
@@ -89,8 +94,6 @@ h2{
   .imagenFondoNosotros{
     padding: 20px;
     height: 300px;
-  }
-  .containerTextoNosotros {
   }
   .textoNosotros{
     font-size: 16px;
@@ -362,6 +365,236 @@ h2{
     height: 25vw;
   }
   .imagenProductos5{
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
+/* FERRETERIA SAN LUIS */
+.colorFondo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#778da9 ;
+  padding: 20px 0;
+}
+.imagenFondoNosotrosFerr{
+  background-image: url("/ferreteria/fondo.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  padding: 10px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px 5px black;
+}
+
+/* SOLUCIONES FERRETERIA*/
+
+.imagenSoluciones1Ferr{
+  background-image: url("/ferreteria/servicios1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones2Ferr{
+  background-image: url("/ferreteria/servicios2.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones3Ferr{
+  background-image: url("/ferreteria/servicios3.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenSoluciones4Ferr{
+  background-image: url("/ferreteria/servicios4.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.itemsSolucionesFerr{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-right: 25px;
+}
+
+
+@media (min-width:550px) {
+  .imagenSoluciones1Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones2Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones3Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones4Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:550px) {
+  .imagenFondoNosotrosFerr{
+    height: 100vh;
+  }
+}
+@media (min-width:1100px) {
+  .imagenSoluciones1Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones2Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones3Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenSoluciones4Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1300px) {
+  .imagenSoluciones1Ferr{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenSoluciones2Ferr{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenSoluciones3Ferr{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenSoluciones4Ferr{
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
+/* PRODUCTOS MAGNANI*/
+
+.imagenProductos1Ferr{
+  background-image: url("/ferreteria/productos1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenProductos2Ferr{
+  background-image: url("/ferreteria/productos2.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenProductos3Ferr{
+  background-image: url("/ferreteria/productos3.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.imagenProductos4Ferr{
+  background-image: url("/ferreteria/productos4.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+@media (min-width:550px) {
+  .imagenProductos1Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos2Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos3Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos4Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1100px) {
+  .imagenProductos1Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos2Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos3Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+  .imagenProductos4Ferr{
+    width: 50vw;
+    height: 50vw;
+  }
+}
+@media (min-width:1300px) {
+  .imagenProductos1Ferr{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenProductos2Ferr{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenProductos3Ferr{
+    width: 25vw;
+    height: 25vw;
+  }
+  .imagenProductos4Ferr{
     width: 25vw;
     height: 25vw;
   }
