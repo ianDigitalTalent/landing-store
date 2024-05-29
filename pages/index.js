@@ -1,12 +1,12 @@
-import Head from "next/head"
-import Header from "../components/Header/Header"
-import Principal from "../components/Principal/Principal"
-import WpButton from "../components/WpButton/WpButton"
-import Empresas from "../components/empresas/empresas"
-import Clientes from "../components/Clientes/Clientes"
-import Nosotros from "../components/Nosotros/Nosotros"
-import Modelos from "../components/Modelos/Modelos"
-import Footer from "../components/Footer/Footer"
+import Head from "next/head";
+import Header from "../components/Header/Header";
+import Principal from "../components/Principal/Principal";
+import WpButton from "../components/WpButton/WpButton";
+import Empresas from "../components/Empresas/Empresas";
+import Clientes from "../components/Clientes/Clientes";
+import Nosotros from "../components/Nosotros/Nosotros";
+import Modelos from "../components/Modelos/Modelos";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -18,19 +18,19 @@ export default function Home() {
       </Head>
       <main>
         <div id="home"></div>
-        <Header/>
-        <Principal/>
-        <WpButton/>
+        <Header />
+        <Principal />
+        <WpButton />
         <h2 id="empresas">Empresas</h2>
-        <Empresas/>
+        <Empresas />
         <h2 id="clientes">Clientes</h2>
-        <Clientes/>
+        <Clientes />
         <h2 id="nosotros">Nosotros</h2>
-        <Nosotros/>
+        <Nosotros />
         <h2 id="modelos">Modelos</h2>
-        <Modelos/>
+        <Modelos />
       </main>
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
